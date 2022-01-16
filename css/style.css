@@ -91,6 +91,7 @@ img {
 
 .hero {
   text-align: center;
+  min-height: 70vh;
 }
 
 .hero-title {
@@ -150,7 +151,7 @@ img {
   opacity: 0.5;
 }
 
-span {
+.stats h2 {
   font-size: 4.5rem;
   font-weight: 700;
   color: var(--neutral-clr-cyan);
@@ -166,7 +167,7 @@ span {
 #conversation,
 #users {
   position: relative;
-  min-height: 40vh;
+  min-height: 60vh;
 }
 
 #conversation,
@@ -245,7 +246,7 @@ span {
 .user-content,
 .build {
   text-align: center;
-  min-height: 10vh;
+  min-height: 20vh;
 }
 
 .grow-img,
@@ -284,7 +285,7 @@ span {
 
 footer {
   background-color: var(--neutral-clr-cyan);
-  min-height: 40vh;
+  min-height: 50vh;
   padding: 2em 0;
   position: relative;
 }
